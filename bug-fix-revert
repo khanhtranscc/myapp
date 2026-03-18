@@ -1,5 +1,14 @@
+$ curl https://api.github.com/repos/khanhtranscc/mcino-Introduction-to-Git-and-GitHub/pulls/1
 {
-  "message": "Not Found",
-  "documentation_url": "https://docs.github.com/rest/pulls/pulls#get-a-pull-request",
-  "status": "404"
+  "url": "https://api.github.com/repos/khanhtranscc/mcino-Introduction-to-Git-and-GitHub/pulls/1",
+  "number": 1,
+  "state": "open",
+  "title": "Fix typo in README.md",
+  "user": {
+    "login": "khanhtranscc"
+  },
+  "head": {
+    "label": "khanhtranscc:bug-fix-typo",
+    "ref": "bug-fix-typo"
+  }
 }
