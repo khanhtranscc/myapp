@@ -1,6 +1,6 @@
-$ curl https://api.github.com/repos/khanhtranscc/mcino-Introduction-to-Git-and-GitHub/pulls/1
+$ curl https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/1
 {
-  "url": "https://api.github.com/repos/khanhtranscc/mcino-Introduction-to-Git-and-GitHub/pulls/1",
+  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/1",
   "number": 1,
   "state": "open",
   "title": "Fix typo in README.md",
@@ -10,5 +10,9 @@ $ curl https://api.github.com/repos/khanhtranscc/mcino-Introduction-to-Git-and-G
   "head": {
     "label": "khanhtranscc:bug-fix-typo",
     "ref": "bug-fix-typo"
+  },
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main"
   }
 }
